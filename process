@@ -1,0 +1,7 @@
+#!/bin/bash
+
+# ./process [id] [n] [port]
+# [id] get
+# [id] alive
+# [id] broadcast [message]
+python3 src/server.py $1 $2 $3
